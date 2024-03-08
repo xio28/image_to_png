@@ -245,4 +245,14 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Ignore everything in the converted_images directory
+converted_images/
+
+# Ignore everything in the images directory
+images/*
+
+# But keep the __init__.py file
+!images/__init__.py
+
+
 # End of https://www.toptal.com/developers/gitignore/api/venv,windows,visualstudiocode,python,git
